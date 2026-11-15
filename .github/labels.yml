@@ -1,0 +1,78 @@
+- name: bug
+  color: d73a4a
+  description: Incorrect behavior
+- name: enhancement
+  color: a2eeef
+  description: Product improvement
+- name: documentation
+  color: 0075ca
+  description: Documentation change
+- name: testing
+  color: 5319e7
+  description: Test coverage or tooling
+- name: refactor
+  color: cfd3d7
+  description: Internal code improvement
+- name: performance
+  color: f9d0c4
+  description: Efficiency or scale improvement
+- name: security-hardening
+  color: b60205
+  description: Defensive security work
+- name: ci/cd
+  color: 1d76db
+  description: Automation and delivery
+- name: dx
+  color: 0e8a16
+  description: Developer experience
+- name: accessibility
+  color: 7057ff
+  description: Accessibility improvement
+- name: epic
+  color: 3e4b9e
+  description: Tracking issue
+- name: area:backend
+  color: 006b75
+  description: Spring Boot backend
+- name: area:frontend
+  color: 0052cc
+  description: Next.js frontend
+- name: area:ai
+  color: 8b5cf6
+  description: AI review pipeline
+- name: area:redis-queue
+  color: d93f0b
+  description: Redis job queue
+- name: area:database
+  color: 4c8eda
+  description: PostgreSQL and migrations
+- name: area:devops
+  color: 24292f
+  description: Infrastructure and delivery
+- name: area:docs
+  color: 0e8a16
+  description: Documentation
+- name: area:security
+  color: b60205
+  description: Security
+- name: good first issue
+  color: 7057ff
+  description: Small guided contribution
+- name: help wanted
+  color: 008672
+  description: Community contribution welcome
+- name: difficulty:intermediate
+  color: fbca04
+  description: Half-day to two-day task
+- name: difficulty:advanced
+  color: d93f0b
+  description: Requires design proposal
+- name: needs-design
+  color: e99695
+  description: Needs approved design
+- name: blocked
+  color: b60205
+  description: Waiting on prerequisite
+- name: needs-triage
+  color: d4c5f9
+  description: Awaiting maintainer triage

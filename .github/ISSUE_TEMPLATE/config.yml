@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community discussions
+    url: https://github.com/OWNER/REPOSITORY/discussions
+    about: Ask questions and share ideas after replacing OWNER/REPOSITORY.
+  - name: Report a security concern
+    url: https://github.com/KunjMaheshwari/codepilot/security/advisories/new
+    about: Please report vulnerabilities privately.

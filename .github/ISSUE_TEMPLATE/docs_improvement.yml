@@ -1,0 +1,13 @@
+name: Documentation improvement
+description: Report missing, inaccurate, or unclear documentation.
+title: "[docs] "
+labels: ["documentation", "area:docs"]
+body:
+  - type: input
+    id: location
+    attributes: { label: Documentation location }
+    validations: { required: true }
+  - type: textarea
+    id: improvement
+    attributes: { label: Suggested improvement }
+    validations: { required: true }

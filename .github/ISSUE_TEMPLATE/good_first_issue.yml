@@ -1,0 +1,13 @@
+name: Good first issue proposal
+description: Suggest a small, independently completable contribution.
+title: "[good first issue] "
+labels: ["good first issue", "needs-triage"]
+body:
+  - type: textarea
+    id: task
+    attributes: { label: Small task, description: Cite the file or behavior and describe a testable outcome. }
+    validations: { required: true }
+  - type: textarea
+    id: hints
+    attributes: { label: Newcomer hints, description: Point to an existing pattern to copy. }
+    validations: { required: true }
