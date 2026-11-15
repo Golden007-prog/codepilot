@@ -11,6 +11,7 @@ CodePilot connects to GitHub via OAuth 2.0, synchronizes repositories and pull r
 ![PostgreSQL 17](https://img.shields.io/badge/PostgreSQL-17-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis 7](https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 ---
 
@@ -33,6 +34,7 @@ CodePilot connects to GitHub via OAuth 2.0, synchronizes repositories and pull r
 - [Security Considerations](#security-considerations)
 - [Known Limitations & Roadmap](#known-limitations--roadmap)
 - [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
 
 ---
 
@@ -312,3 +314,9 @@ npm run test:e2e       # Playwright E2E tests (mocked API)
    - `cd backend && mvn clean test -B && mvn verify -B`
    - `cd frontend && npm run lint && npx tsc --noEmit && npm run build && npx playwright test`
 5. Ensure `git diff --check` reports no whitespace or formatting issues.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
